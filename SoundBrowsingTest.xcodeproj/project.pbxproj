@@ -15,6 +15,10 @@
 		FC294B5F2148B60100FD05F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC294B5D2148B60100FD05F8 /* LaunchScreen.storyboard */; };
 		FC294B6A2148B60200FD05F8 /* SoundBrowsingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC294B692148B60200FD05F8 /* SoundBrowsingTestTests.swift */; };
 		FC294B752148B60200FD05F8 /* SoundBrowsingTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC294B742148B60200FD05F8 /* SoundBrowsingTestUITests.swift */; };
+		FC294B832148B63D00FD05F8 /* SoundBrowsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC294B822148B63D00FD05F8 /* SoundBrowsing.swift */; };
+		FC294B852148B90F00FD05F8 /* Apologize - One Republic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC294B842148B90E00FD05F8 /* Apologize - One Republic.mp3 */; };
+		FC294B872148B91C00FD05F8 /* Let her go - The Passenger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC294B862148B91B00FD05F8 /* Let her go - The Passenger.mp3 */; };
+		FC294B892148B92300FD05F8 /* Thinking out loud - Ed Sheeran.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC294B882148B92300FD05F8 /* Thinking out loud - Ed Sheeran.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		FC294B702148B60200FD05F8 /* SoundBrowsingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundBrowsingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC294B742148B60200FD05F8 /* SoundBrowsingTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBrowsingTestUITests.swift; sourceTree = "<group>"; };
 		FC294B762148B60200FD05F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC294B822148B63D00FD05F8 /* SoundBrowsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBrowsing.swift; sourceTree = "<group>"; };
+		FC294B842148B90E00FD05F8 /* Apologize - One Republic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Apologize - One Republic.mp3"; sourceTree = "<group>"; };
+		FC294B862148B91B00FD05F8 /* Let her go - The Passenger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Let her go - The Passenger.mp3"; sourceTree = "<group>"; };
+		FC294B882148B92300FD05F8 /* Thinking out loud - Ed Sheeran.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Thinking out loud - Ed Sheeran.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +110,14 @@
 				FC294B512148B5FF00FD05F8 /* AppDelegate.swift */,
 				FC294B532148B5FF00FD05F8 /* ViewController.swift */,
 				FC294B552148B5FF00FD05F8 /* Main.storyboard */,
+				FC294B882148B92300FD05F8 /* Thinking out loud - Ed Sheeran.mp3 */,
+				FC294B862148B91B00FD05F8 /* Let her go - The Passenger.mp3 */,
+				FC294B842148B90E00FD05F8 /* Apologize - One Republic.mp3 */,
 				FC294B5B2148B60100FD05F8 /* Assets.xcassets */,
 				FC294B5D2148B60100FD05F8 /* LaunchScreen.storyboard */,
 				FC294B602148B60100FD05F8 /* Info.plist */,
 				FC294B582148B5FF00FD05F8 /* SoundBrowsingTest.xcdatamodeld */,
+				FC294B822148B63D00FD05F8 /* SoundBrowsing.swift */,
 			);
 			path = SoundBrowsingTest;
 			sourceTree = "<group>";
@@ -233,7 +245,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC294B5F2148B60100FD05F8 /* LaunchScreen.storyboard in Resources */,
+				FC294B872148B91C00FD05F8 /* Let her go - The Passenger.mp3 in Resources */,
+				FC294B852148B90F00FD05F8 /* Apologize - One Republic.mp3 in Resources */,
 				FC294B5C2148B60100FD05F8 /* Assets.xcassets in Resources */,
+				FC294B892148B92300FD05F8 /* Thinking out loud - Ed Sheeran.mp3 in Resources */,
 				FC294B572148B5FF00FD05F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +276,7 @@
 			files = (
 				FC294B542148B5FF00FD05F8 /* ViewController.swift in Sources */,
 				FC294B5A2148B5FF00FD05F8 /* SoundBrowsingTest.xcdatamodeld in Sources */,
+				FC294B832148B63D00FD05F8 /* SoundBrowsing.swift in Sources */,
 				FC294B522148B5FF00FD05F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

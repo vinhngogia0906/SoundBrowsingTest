@@ -7,12 +7,25 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, AVAudioPlayerDelegate {
+/*
+    @IBAction func stopMusic(_ sender: Any) {
+        player.stop()
+    }
+    @IBAction func startMusic(_ sender: Any) {
+        player.play()
+    }
+ */
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        /*do{
+            let audioPlayer = Bundle.main.path(forResource: "Apologize - One Republic", ofType: "mp3")
+            try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPlayer!) as URL)
+        }
+        catch{}        // Do any additional setup after loading the view, typically from a nib.
+ */
     }
 
     override func didReceiveMemoryWarning() {
