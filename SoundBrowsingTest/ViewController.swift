@@ -10,14 +10,14 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController, AVAudioPlayerDelegate {
-/*
+
     @IBAction func stopMusic(_ sender: Any) {
-        player.stop()
+        //player.stop()
     }
     @IBAction func startMusic(_ sender: Any) {
-        player.play()
+        //player.play()
     }
- */
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
         /*do{
@@ -32,7 +32,5 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 

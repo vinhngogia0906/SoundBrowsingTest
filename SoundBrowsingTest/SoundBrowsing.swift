@@ -34,13 +34,13 @@ class SoundBrowsing: UITableViewController, AVAudioPlayerDelegate{
         myIndex = indexPath.row
         
         do{
-            let audioPlayer = Bundle.main.path(forResource: "sound1", ofType: "mp3")
+            let audioPlayer = Bundle.main.path(forResource: soundList[indexPath.row], ofType: "mp3")
             try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPlayer!) as URL)
         }
         catch{}
  
-        //performSegue(withIdentifier: "segue", sender: self)
-        player.play()
+        performSegue(withIdentifier: "segue", sender: self)
+        //player.play()
     }
     /*
     // Override to support conditional editing of the table view.

@@ -34,7 +34,7 @@
                         </connections>
                     </tableView>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="segue" id="u2r-4v-sCe"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="segue" id="uNb-lg-fR2"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cw5-Ul-cVK" userLabel="First Responder" sceneMemberID="firstResponder"/>
