@@ -7,9 +7,8 @@
 //
 
 import UIKit
-import AVFoundation
 
-class ViewController: UIViewController, AVAudioPlayerDelegate {
+class ViewController: UIViewController{
 
     @IBAction func stopMusic(_ sender: Any) {
         //player.stop()

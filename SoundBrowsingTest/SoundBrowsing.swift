@@ -39,7 +39,7 @@ class SoundBrowsing: UITableViewController, AVAudioPlayerDelegate{
         }
         catch{}
  
-        performSegue(withIdentifier: "segue", sender: self)
+        performSegue(withIdentifier: "segue1", sender: self)
         //player.play()
     }
     /*

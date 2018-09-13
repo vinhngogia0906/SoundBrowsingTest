@@ -34,7 +34,7 @@
                         </connections>
                     </tableView>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="segue" id="uNb-lg-fR2"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="segue1" id="uNb-lg-fR2"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cw5-Ul-cVK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -63,14 +63,6 @@
                                 <state key="normal" title="Stop"/>
                                 <connections>
                                     <action selector="stopMusic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cch-eX-g5f"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fpB-El-MWY">
-                                <rect key="frame" x="67" y="405" width="34" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="CiA-g3-l1I" kind="show" id="vHb-zu-QJV"/>
                                 </connections>
                             </button>
                         </subviews>
